@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CustomReactComponentWrapperComponent } from './CustomReactComponentWapper';
+import { ReactComponentComponent } from './react-component/react-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomReactComponentWrapperComponent
+    ReactComponentComponent
   ],
   imports: [
     BrowserModule,
